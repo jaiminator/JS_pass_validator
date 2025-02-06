@@ -1,4 +1,5 @@
 const inputText = document.getElementById("inputPass")
+inputText.addEventListener("keyup", validar)
 const validatorText = document.getElementById("textSecurity")
 
 function validar() {
