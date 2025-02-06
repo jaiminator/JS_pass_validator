@@ -1,13 +1,21 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;
+    margin: auto;
+}
+
+#divContainer{
+    height: 100vh;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
     gap: 5px;
 }
 
 #inputPass{
-    border-radius: 15px;
+    padding: 7px;
+    border-radius: 10px;
 }
 
 #textSecurity{
