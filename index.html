@@ -1,16 +1,23 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pass security</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <div id="divContainer">
-        <input type="password" id="inputPass" autofocus>
-        <div id="textSecurity"></div>
-        <script src="script.js"></script>
-    </div>
-</body>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Pass security</title>
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+    <body>
+        <div id="divContainer">
+            <input type="text" placeholder="Usuario..." id="inputuser" />
+            <input
+                type="password"
+                id="inputPass"
+                placeholder="Clave..."
+                autofocus
+            />
+            <div id="textSecurity"></div>
+            <button disabled id="buttonlogin">Login</button>
+            <script src="script.js"></script>
+        </div>
+    </body>
 </html>

@@ -1,11 +1,12 @@
-body{
+body {
     font-family: Arial, Helvetica, sans-serif;
     height: 100vh;
     margin: auto;
     font-size: 1.5em;
+    background-color: rgb(207, 238, 227);
 }
 
-#divContainer{
+#divContainer {
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -14,12 +15,48 @@ body{
     gap: 5px;
 }
 
-#inputPass{
+#inputPass {
     padding: 7px;
     border-radius: 10px;
+    border: 2px solid;
+    border-color: rgb(222, 72, 187);
 }
 
-#textSecurity{
-    font-size: 1.2em;
+#textSecurity {
+    margin: 10px;
+    font-size: 1em;
     font-weight: bold;
+}
+::placeholder {
+    color: rgb(109, 124, 132);
+    font-style: italic;
+}
+#inputuser {
+    margin: 10px;
+    padding: 7px;
+    border-radius: 10px;
+    border: 2px solid;
+    border-color: rgb(222, 72, 187);
+}
+button {
+    margin: 10px;
+    color: black;
+    width: 180px;
+    height: 30px;
+    border-radius: 10px;
+    border: 2px solid;
+    border-color: rgb(218, 133, 198);
+    background-color: rgb(235, 120, 120);
+}
+.botonverde {
+    background-color: rgb(29, 183, 99);
+}
+.botonred {
+    background-color: red;
+}
+#inputuser:focus {
+    background-color: rgb(71, 237, 159);
+}
+#inputPass:focus {
+    background-color: rgb(71, 237, 159);
 }
