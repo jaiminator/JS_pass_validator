@@ -17,14 +17,30 @@ body {
 #inputPass {
     padding: 7px;
     border-radius: 10px;
-    border: 1px solid;
+    border: 2px solid;
     border-color: rgb(222, 72, 187);
 }
 
 #textSecurity {
-    font-size: 1.2em;
+    font-size: 1em;
     font-weight: bold;
 }
 ::placeholder {
     color: rgb(109, 124, 132);
+}
+#inputuser {
+    padding: 7px;
+    border-radius: 10px;
+    border: 2px solid;
+    border-color: rgb(222, 72, 187);
+}
+button {
+    width: 180px;
+    height: 30px;
+    border-radius: 10px;
+    border: 2px solid;
+    border-color: rgb(222, 72, 187);
+}
+.botonazul {
+    color: rgb(105, 105, 213);
 }
